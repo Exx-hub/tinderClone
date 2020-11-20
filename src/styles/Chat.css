@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.chat {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fafafa;
+}
+.chat__details {
+	flex: 1;
+}
+.chat__details > h4 {
+	font-size: 18px;
+	color: black;
+	padding: 5px;
+}
+.chat__details > p {
+	padding: 5px;
+}
+
+.chat > .MuiAvatar-root {
+	margin-right: 10px;
+}
+.chat p {
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: inherit;
+}

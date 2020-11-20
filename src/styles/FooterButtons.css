@@ -1,0 +1,59 @@
+.footerButtons {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: fixed;
+	bottom: 10vh;
+	width: 100%;
+}
+.footerButtons__iconButtons {
+	background-color: #fff;
+	border-radius: 33px;
+	cursor: pointer;
+	box-shadow: 5px 5px 17px -7px rgba(0, 0, 0, 0.75) !important;
+}
+.footerButtons__replay {
+	color: #f5b748;
+	padding: 10px;
+	font-size: xx-large !important;
+}
+.footerButtons__clear {
+	color: rgba(182, 39, 39, 0.911);
+	padding: 10px;
+	font-size: xx-large !important;
+}
+
+.footerButtons__star {
+	color: rgb(0, 174, 255);
+	padding: 10px;
+	font-size: xx-large !important;
+}
+.footerButtons__heart {
+	color: rgb(5, 204, 81);
+	padding: 10px;
+	font-size: xx-large !important;
+}
+.footerButtons__lightning {
+	color: rgb(126, 56, 196);
+	padding: 10px;
+	font-size: xx-large !important;
+}
+
+@media screen and (max-width: 450px) {
+	.footerButtons__replay {
+		padding: 0px;
+	}
+	.footerButtons__clear {
+		padding: 0px;
+	}
+
+	.footerButtons__star {
+		padding: 0px;
+	}
+	.footerButtons__heart {
+		padding: 0;
+	}
+	.footerButtons__lightning {
+		padding: 0px;
+	}
+}
